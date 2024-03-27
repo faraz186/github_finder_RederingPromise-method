@@ -1,6 +1,6 @@
 var getData = document.getElementById("showData");
 var input = document.getElementById("searchInput");
-var apikey = "d0ab0d9c70444ce0a82b32ff8ef54bbe";
+var apikey = "*********************************";
 
 const getNews = () => {
   getData.innerHTML = `<div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
