@@ -5,7 +5,7 @@ const getInput = () => {
   var data = "";
   axios
     .get("https://api.github.com/users/" + correctUsername)
-    .then((res) => {
+    .then((res) => {   
       data = res.data;
 
       document.getElementById("result").innerHTML = `
