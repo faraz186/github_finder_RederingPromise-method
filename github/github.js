@@ -7,7 +7,7 @@ const getInput = () => {
     .get("https://api.github.com/users/" + correctUsername)    
     .then((res) => {   
       data = res.data;    
-        
+            
       document.getElementById("result").innerHTML = `    
       <div class="card" style="width: 13rem;">            
   <img src="${data.avatar_url}" class="card-img-top" alt="...">    
