@@ -1,5 +1,5 @@
 const getInput = () => {     
-  var input = document.getElementById("searchInput").value;    
+  var input = document.getElementById("searchInput").value;        
 
   var correctUsername = input.split(" ").join("");
   var data = "";   
