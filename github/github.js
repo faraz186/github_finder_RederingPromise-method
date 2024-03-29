@@ -6,7 +6,7 @@ const getInput = () => {
   axios     
     .get("https://api.github.com/users/" + correctUsername)
     .then((res) => {   
-      data = res.data;
+      data = res.data;    
      
       document.getElementById("result").innerHTML = `
       <div class="card" style="width: 13rem;">
