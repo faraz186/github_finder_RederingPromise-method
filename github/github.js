@@ -16,7 +16,7 @@ const getInput = () => {
     <p class="card-text">${data.bio}</p>      
     <a href="#" class="btn btn-primary">${data.html_url}</a>    
   </div>
-</div>    
+</div>       
       `;
     })
     .catch((err) => {
