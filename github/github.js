@@ -3,7 +3,7 @@ const getInput = () => {
 
   var correctUsername = input.split(" ").join("");
   var data = "";   
-  axios
+  axios     
     .get("https://api.github.com/users/" + correctUsername)
     .then((res) => {   
       data = res.data;
