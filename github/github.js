@@ -9,7 +9,7 @@ const getInput = () => {
       data = res.data;    
         
       document.getElementById("result").innerHTML = `    
-      <div class="card" style="width: 13rem;">        
+      <div class="card" style="width: 13rem;">            
   <img src="${data.avatar_url}" class="card-img-top" alt="...">
   <div class="card-body">   
     <h5 class="card-title">${data.name}</h5>
