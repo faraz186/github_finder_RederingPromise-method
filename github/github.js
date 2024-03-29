@@ -2,7 +2,7 @@ const getInput = () => {
   var input = document.getElementById("searchInput").value;
 
   var correctUsername = input.split(" ").join("");
-  var data = "";
+  var data = "";   
   axios
     .get("https://api.github.com/users/" + correctUsername)
     .then((res) => {   
