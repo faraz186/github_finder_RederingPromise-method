@@ -4,7 +4,7 @@ const fetchData = new Promise((resolve, reject) => {
   fetch("https://fakestoreapi.com/products")
     .then((res) => res.json())  
     .then((res) => resolve(res))
-    .catch((err) => reject(err));      
+    .catch((err) => reject(err));         
 });
 
 fetchData   
