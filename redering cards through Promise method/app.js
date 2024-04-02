@@ -8,7 +8,7 @@ const fetchData = new Promise((resolve, reject) => {
 });
 
 fetchData
-  .then((res) => {
+  .then((res) => {   
     // console.log(res);
     sendTohtml(res);
   })
