@@ -2,7 +2,7 @@ var table = document.getElementById("dataRow");
 
 const fetchData = new Promise((resolve, reject) => {
   fetch("https://fakestoreapi.com/products")
-    .then((res) => res.json())
+    .then((res) => res.json())  
     .then((res) => resolve(res))
     .catch((err) => reject(err));
 });
