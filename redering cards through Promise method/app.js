@@ -7,7 +7,7 @@ const fetchData = new Promise((resolve, reject) => {
     .catch((err) => reject(err));      
 });
 
-fetchData
+fetchData   
   .then((res) => {   
     // console.log(res);
     sendTohtml(res);
