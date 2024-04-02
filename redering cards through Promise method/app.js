@@ -22,7 +22,7 @@ function sendTohtml(data) {
     <td>${e.id}</td>   
     <td>${e.title}</td>
     <td>${e.price}</td>
-    <td>${e.description}</td>
+    <td>${e.description}</td>    
     <td><img src="${e.image}"/></td>
 
     </tr>`;
