@@ -18,7 +18,7 @@ function sendTohtml(data) {
   var card = "";
   console.log(data);
   var getData = data.map((e, i) => {
-    card += `<tr>
+    card += `<tr>   
     <td>${e.id}</td>
     <td>${e.title}</td>
     <td>${e.price}</td>
